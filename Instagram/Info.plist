@@ -17,9 +17,15 @@
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
+                    <key>NSAppTransportSecurity</key>
+                    <dict>
+                        <key>NSAllowsArbitraryLoads</key><true/>
+                    </dict>
+                    
 				</dict>
 			</array>
 		</dict>
 	</dict>
+    
 </dict>
 </plist>
